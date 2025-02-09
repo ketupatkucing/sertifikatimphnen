@@ -6,40 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style.css">
-  <title>Sertifikasi Malas Ngoding</title>
+  <title>Form to PDF</title>
 </head>
 
 <body>
 
 <form id="myForm">
     <div class="container">
-      
+      <div class="kiri">
       <img src="logo.png" alt="logojpg.">
       
-      <label for="name">Diberikan Kepada </label>
-      <div id="name" contenteditable="true" class="editableDiv">Nama peserta</div>
+      <label for="name">Diberikan Kepada</label>
+      <div id="name" contenteditable="true" class="editableDiv" onkeyup="cek()">Nama Peserta</div>
       
       <label for="grup">Atas Partisipasi Pada Grup</label>
       <div id="grup" class="">Ingin Menjadi Programer Handal <br> Namun Enggan Ngoding</div>
       
       <label for="tanggal">Diberikan Pada Tanggal</label>
-      <div id="tanggal" contenteditable="true" class="editableDiv">dd/mm/yy</div>
+      <div onkeyup="cektgl()" id="tanggal" contenteditable="true" class="editableDiv">dd/mm/yy</div>
       
-      <input class="admin" id="admin" disabled type="text" value="Admin Grup">
-      <div class="adm-sig">
-        Admin Grup</div>
-      <p id="footer">*Berlaku sampai grupnya hangus</p>
-      <div class="kotak">
+     
+        
+      </div>
+      <div class="kanan">
+        <div class="kotak">
+        
+        </div>
+        <div class="segitiga">
+        
+        </div>
+        <div class="hal">
+          SERTIFIKAT <br>
+          KOMPETENSI <br>
+          KEMALASAN
+        </div>
+         <input class="admin" id="admin" disabled type="text" value="Admin Grup">
+         <div class="adm-sig">
+           Admin Grup</div>
+         <p id="footer">*Berlaku sampai grupnya hangus</p>
+      </div>
       
-      </div>
-      <div class="segitiga">
-      
-      </div>
-      <div class="hal">
-        SERTIFIKAT <br>
-        KOMPETENSI <br>
-        KEMALASAN 
-      </div>
     </div>
      
    </form>
