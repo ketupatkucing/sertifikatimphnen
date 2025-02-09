@@ -35,12 +35,19 @@ form {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.kiri {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
-  
 }
-
+.kanan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 img {
   width: 250px;
   margin-left: -20px;
@@ -78,41 +85,45 @@ label {
   font-family: "Style script", sans-serif;
   margin-bottom: -10px;
   width: 97%;
+  position: relative;
+  right: -50px;
+  top: -30px;
 }
 .admin {
 
-  text-align: right;
+  text-align: center;
 }
 .adm-sig {
   width: 92%;
-  text-align: right;
+  text-align: center;
   font-family: "Titillium Web";
   font-weight: 700;
   color :#189cd0;
   font-size: 16px;
+  position: relative;
+  right: -50px;
+  top: -30px
   
 }
 #name {
   font-size: 24px;
+  width: 370px;
+  word-break: break-word;
+
+
 }
 #tanggal {
   font-size: 18px;
   margin-bottom: 30px;
+  width: 17ch;
+  
+  
 }
-.hal {
-  font-family: "Titillium Web";
-  font-weight: 700;
-  color :white;
-  font-size: 17px;
-  position: relative;
-  bottom: 655px;
-  left: 559px;
-  text-align: center;
-}
+
 .editableDiv {
   display: 
   inline-block; 
-  min-width: 10ch; 
+  /*min-width: 10ch; */
   border-left: none;
   border-top: none;
   border-right: none;
@@ -135,8 +146,8 @@ label {
 }
 #footer {
   position: relative;
-  top: -20px;
-  left: 10px;
+  top: -45px;
+  right: 520px;
   font-size: 12px;
   font-family: "Titillium web", sans-serif;
   font-weight: 600;
@@ -152,8 +163,8 @@ label {
   border-color: #00a0e8 transparent transparent transparent;
   transform: rotate(0deg);
   position: relative;
-  left: 80%;
-  bottom: 120%;
+  right: 25px;
+  top: -70px;
   
 }
 .kotak {
@@ -163,7 +174,18 @@ label {
   border-width: 150px 55px 55px 55px;
   border-color: #00a0e8;
   position: relative;
-  left: 80%;
-  bottom:495px;
-  
+  top: -40px;
+  right: 25px;
+}
+
+.hal {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  color: white;
+  font-size: 17px;
+  position: relative;
+  text-align: center;
+  right: 29px;
+  top: -200px;
+
 }
