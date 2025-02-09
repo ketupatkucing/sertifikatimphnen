@@ -99,6 +99,16 @@ label {
   font-size: 18px;
   margin-bottom: 30px;
 }
+.hal {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  color :white;
+  font-size: 17px;
+  position: relative;
+  bottom: 655px;
+  left: 559px;
+  text-align: center;
+}
 .editableDiv {
   display: 
   inline-block; 
