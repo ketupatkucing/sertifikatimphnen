@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Form to PDF</title>
+</head>
+
+<body>
+
+<form id="myForm">
+    <div class="container">
+      
+      <img src="logo.png" alt="logojpg.">
+      
+      <label for="name">Diberikan Kepada </label>
+      <div id="name" contenteditable="true" class="editableDiv"></div>
+      
+      <label for="grup">Atas Partisipasi Pada Grup</label>
+      <div id="grup" contenteditable="true" class="editableDiv"></div>
+      
+      <label for="tanggal">Tanggal diberikan</label>
+      <div id="tanggal" contenteditable="true" class="editableDiv"></div>
+      
+      <input class="admin" id="admin" disabled type="text" value="Admin Grup">
+      <div class="adm-sig">
+        Admin Grup</div>
+      <p id="footer">*Berlaku sampai grupnya hangus</p>
+      <div class="kotak">
+      
+      </div>
+      <div class="segitiga">
+      
+      </div>
+    </div>
+     
+   </form>
+
+  
+
+
+  <button type="button" onclick="generatePDF()">Generate PDF</button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

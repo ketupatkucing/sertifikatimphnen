@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid #00a0e8 15px;
+  width: 753px;
+  height: 500px;
+  
+}
+.container {
+  border: solid #00a0e8 5px;
+  width: 693px;
+  height: 440px;
+  background: linear-gradient(
+  rgba(255, 255, 255, 0.5), 
+  rgba(255, 255, 255, 0.5),
+  rgba(255, 255, 255, 0.5),
+  rgba(255, 255, 255, 0.5)),
+  url('bg.webp');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+}
+
+img {
+  width: 250px;
+  margin-left: -20px;
+  margin-top: -15px;
+
+
+}
+button {
+  position: absolute;
+  z-index: 99;
+  top: 600px;
+}
+
+input {
+ border: none;
+  background-color: transparent;
+  font-size: 32px;
+  font-family: "Roboto";
+  color: #115598;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+label {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  color :#189cd0;
+  font-size: 16px;
+  margin-left: 15px;
+}
+#admin {
+  font-size: 46px;
+  color: black;
+  font-family: "Style script", sans-serif;
+  margin-bottom: -10px;
+  width: 97%;
+}
+.admin {
+
+  text-align: right;
+}
+.adm-sig {
+  width: 92%;
+  text-align: right;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  color :#189cd0;
+  font-size: 16px;
+  
+}
+#tanggal {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.editableDiv {
+  margin-left: 10px;
+  display: 
+  inline-block; 
+  min-width: 10ch; 
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: solid #00a0e8 2px;
+  font-size: 32px;
+  font-family: "Roboto";
+  color: #115598;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  
+}
+#footer {
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-size: 12px;
+  font-family: "Titillium web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: dimgrey;
+}
+
+.segitiga {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 69px 55px 0 55px;
+  border-color: #00a0e8 transparent transparent transparent;
+  transform: rotate(0deg);
+  position: relative;
+  left: 80%;
+  bottom: 120%;
+  
+}
+.kotak {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 150px 55px 55px 55px;
+  border-color: #00a0e8;
+  position: relative;
+  left: 80%;
+  bottom:500px;
+  
+}
